@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 959b08c0af2cb3349a82c37aeae72c1d, type: 3}
+  m_Name: 2
+  m_EditorClassIdentifier: 
+  question: "256 \u2013 249 \u2013 250 \u2013 302 \u2013 297\r\nUrutan bilangan di
+    atas dari yang terbesar yang benar adalah \u2026."
+  answers:
+  - "256 \u2013 250 \u2013 302 \u2013 297 \u2013 249 "
+  - "249 \u2013 250 \u2013 256 \u2013 297 \u2013 302"
+  - "302 \u2013 297 \u2013 256 \u2013 250 \u2013 249"
+  - "302 \u2013 297 \u2013 250 \u2013 256 \u2013 249"
+  correctAnswerIndex: 2

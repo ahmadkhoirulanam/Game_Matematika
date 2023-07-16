@@ -1,0 +1,161 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/intro.unity
+    guid: 902a06dbcb78d7d4ab20aefc335f5e6f
+  - enabled: 1
+    path: Assets/Scenes/belajar.unity
+    guid: 1b19adb8eae44b647b334f976ad6b0ee
+  - enabled: 1
+    path: Assets/Scenes/main.unity
+    guid: 9a82f1f634bbcb24684d37d053d2223e
+  - enabled: 1
+    path: Assets/Scenes/menu_kuis.unity
+    guid: 0a7a2d435a185814cbc6c34e2e34c431
+  - enabled: 1
+    path: Assets/Scenes/cacah1.unity
+    guid: f1f2a908a5cce17438de74130bf7dbb6
+  - enabled: 1
+    path: Assets/Scenes/cacah3.unity
+    guid: 8a34ee6f52beb934eac0896f06a694ed
+  - enabled: 1
+    path: Assets/Scenes/cacah2.unity
+    guid: 8a052895a3cea2748b3d6e9e0ff4ed13
+  - enabled: 1
+    path: Assets/Scenes/cacah4.unity
+    guid: 6c5cf014f5a9e574cb4219c1a3960951
+  - enabled: 1
+    path: Assets/Scenes/1membandingkan.unity
+    guid: 37a86ec7c33916346896493bb200b04c
+  - enabled: 1
+    path: Assets/Scenes/2membandingkan.unity
+    guid: d5361ec618467dc4083b0b203ae85c46
+  - enabled: 1
+    path: Assets/Scenes/3membandingkan.unity
+    guid: 5d5eec55985c407488e62a7936291078
+  - enabled: 1
+    path: Assets/Scenes/4membandingkan.unity
+    guid: 65c2ce0d47252f44fa53ee59aca0ab50
+  - enabled: 1
+    path: Assets/Scenes/5membandingkan.unity
+    guid: 5bb3e2a705755c244b74fa9a41014370
+  - enabled: 1
+    path: Assets/Scenes/6membandingkan.unity
+    guid: a68b6ceaa163f214e8fe57722c60bb18
+  - enabled: 1
+    path: Assets/Scenes/7membandingkan.unity
+    guid: e1c25bb94b3ee2848aee3885ecb24f31
+  - enabled: 1
+    path: Assets/Scenes/8membandingkan.unity
+    guid: 2f712e1a5b8ca314fadaa7532e316c7a
+  - enabled: 1
+    path: Assets/Scenes/9membandingkan.unity
+    guid: a84e3103dd04e794db69c09dfd3b9b51
+  - enabled: 1
+    path: Assets/Scenes/mengurutkan/1mengurutkan.unity
+    guid: a5779d28e7545ad448b518c9cc27d2f0
+  - enabled: 1
+    path: Assets/Scenes/mengurutkan/2mengurutkan.unity
+    guid: 87331bc1d3087b74683a409639d9ac22
+  - enabled: 1
+    path: Assets/Scenes/mengurutkan/3mengurutkan.unity
+    guid: c6200b1ad6dc2c14c9efe9fa66ad7eb9
+  - enabled: 1
+    path: Assets/Scenes/mengurutkan/4mengurutkan.unity
+    guid: 493391df2cf55844196f1ef2dfc20d40
+  - enabled: 1
+    path: Assets/Scenes/mengurutkan/5mengurutkan.unity
+    guid: 0f81fdabb1d297f479018c11a1d0e0e7
+  - enabled: 1
+    path: Assets/Scenes/mengurutkan/6mengurutkan.unity
+    guid: 836d8a3d704fe9d4384388569d9e8794
+  - enabled: 1
+    path: Assets/Scenes/mengurutkan/7mengurutkan.unity
+    guid: 6851d63b787b30f41b3265369af19086
+  - enabled: 1
+    path: Assets/Scenes/penjumlahan/1_penjumlahan.unity
+    guid: cfeceb57b4256f841a979437e77b1daf
+  - enabled: 1
+    path: Assets/Scenes/penjumlahan/2_penjumlahan.unity
+    guid: 381a222931ac4254891581c7b321d713
+  - enabled: 1
+    path: Assets/Scenes/penjumlahan/3_penjumlahan.unity
+    guid: bf8ecabe29665024b8a252afeaeaf5f9
+  - enabled: 1
+    path: Assets/Scenes/penjumlahan/4_penjumlahan.unity
+    guid: a5d98882f612138468a2e71b0da8f6d5
+  - enabled: 1
+    path: Assets/Scenes/penjumlahan/5_penjumlahan.unity
+    guid: 2c096f47562b9f94183a3a216fb4825f
+  - enabled: 1
+    path: Assets/Scenes/penjumlahan/6_penjumlahan.unity
+    guid: c41a36026dc73104a9ad9a8016f14e5b
+  - enabled: 1
+    path: Assets/Scenes/soal/soal_1_banding.unity
+    guid: aadd9fff28ae1fe4d940f981fb876ce0
+  - enabled: 1
+    path: Assets/Scenes/kuis_1.unity
+    guid: d87efad915d09d443807eabe8c3ce816
+  - enabled: 0
+    path: Assets/Scenes/soal/soal_1_campuran@.unity
+    guid: 42234ea608da78c46afbb467259f7be1
+  - enabled: 0
+    path: Assets/Scenes/soal/soal_1_penjumlhan@.unity
+    guid: 0044285950ea117499fe771f40d6a182
+  - enabled: 0
+    path: Assets/Scenes/soal/soal_1_urut@.unity
+    guid: dbc06036e22191944955602c6daa61df
+  - enabled: 0
+    path: Assets/Scenes/soal/soal_2_banding@.unity
+    guid: 0467bfba1099bb2469315a47814b63ce
+  - enabled: 1
+    path: Assets/Scenes/kuis_2.unity
+    guid: ed8bd0073477c2641881bb341fef2e6e
+  - enabled: 1
+    path: Assets/Scenes/kuis_3.unity
+    guid: 46ec561f872bbd346acd667f01abd1d1
+  - enabled: 1
+    path: Assets/Scenes/kreator.unity
+    guid: 79912b0d3f781c1419b592cfada0e8e1
+  - enabled: 1
+    path: Assets/Scenes/soal/soal_1_campuran.unity
+    guid: 3ef660b7e19f02d4f91a25bb85ca223e
+  - enabled: 1
+    path: Assets/Scenes/soal/soal_1_penjumlhan.unity
+    guid: ff7578ff1adf14041814adeeb18e8209
+  - enabled: 1
+    path: Assets/Scenes/soal/soal_1_urut.unity
+    guid: 4a624a0a6abfee34eb57acf7f218d7c7
+  - enabled: 1
+    path: Assets/Scenes/soal/soal_2_banding.unity
+    guid: 85b7e70933a82f247a78d9e0cf5a8e01
+  - enabled: 1
+    path: Assets/Scenes/soal/soal_2_campuran.unity
+    guid: 8fe1dba6f78a985408a6d2e2c7670ee0
+  - enabled: 1
+    path: Assets/Scenes/soal/soal_2_penjumlhan.unity
+    guid: 3cb5a3346d34e3f4481b18d669a3212d
+  - enabled: 1
+    path: Assets/Scenes/soal/soal_2_urut.unity
+    guid: 93c42e0710a55ae49a4b3e2ea3317722
+  - enabled: 1
+    path: Assets/Scenes/soal/soal_3_banding.unity
+    guid: 0ab6e9451d314584991f7870e6b7a4aa
+  - enabled: 1
+    path: Assets/Scenes/soal/soal_3_campuran.unity
+    guid: b7973682130c157468ce093ff19480a2
+  - enabled: 1
+    path: Assets/Scenes/soal/soal_3_penjumlhan.unity
+    guid: aa9424cbba6b8da45ac5f48b447ac8e9
+  - enabled: 1
+    path: Assets/Scenes/soal/soal_3_urut.unity
+    guid: 1077ac4d80315884693e1482cd5e647d
+  m_configObjects: {}
