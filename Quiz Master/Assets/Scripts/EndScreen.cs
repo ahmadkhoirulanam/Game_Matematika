@@ -16,7 +16,13 @@ public class EndScreen : MonoBehaviour
 
 
     public void showScore(){
-        finalScoreText.text = "NIlai Anda: \n" + score.calculateTotalScore();
+        if (score.calculateTotalScore() < 70){
+            finalScoreText.text = "Kamu belum berhasil :(  \n yuk semangat belajar dan bermain lagi \n NIlai Anda: " + score.calculateTotalScore();
+        }
+        else {
+            finalScoreText.text = "Horee!! Kamu berhasil \n NIlai Anda: " + score.calculateTotalScore();
+        }
+        
     }
 
 }

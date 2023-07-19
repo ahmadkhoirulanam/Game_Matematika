@@ -26,6 +26,12 @@ public class LatihanApplication : MonoBehaviour
         SceneManager.LoadScene("kreator");
     }
 
+    public void tentang()
+    {
+
+        SceneManager.LoadScene("tentang");
+    }
+
     public void Kembali () {
         
 		SceneManager.LoadScene("main");
