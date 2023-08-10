@@ -354,6 +354,7 @@ GameObject:
   - component: {fileID: 276065349}
   - component: {fileID: 276065351}
   - component: {fileID: 276065350}
+  - component: {fileID: 276065352}
   m_Layer: 5
   m_Name: kembali (1)
   m_TagString: Untagged
@@ -418,6 +419,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 276065348}
   m_CullTransparentMesh: 1
+--- !u!95 &276065352
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 276065348}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f3b180c36d032904285c45504a1cc12b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &507127590
 GameObject:
   m_ObjectHideFlags: 0
@@ -653,6 +673,7 @@ GameObject:
   - component: {fileID: 938934251}
   - component: {fileID: 938934253}
   - component: {fileID: 938934252}
+  - component: {fileID: 938934254}
   m_Layer: 5
   m_Name: kembali (4)
   m_TagString: Untagged
@@ -717,6 +738,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 938934250}
   m_CullTransparentMesh: 1
+--- !u!95 &938934254
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 938934250}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 4b2acf2b9ad8e894c955348960d74488, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1271310230
 GameObject:
   m_ObjectHideFlags: 0

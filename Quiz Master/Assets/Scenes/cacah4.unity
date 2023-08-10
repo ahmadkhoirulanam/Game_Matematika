@@ -209,6 +209,7 @@ GameObject:
   - component: {fileID: 276065349}
   - component: {fileID: 276065351}
   - component: {fileID: 276065350}
+  - component: {fileID: 276065352}
   m_Layer: 5
   m_Name: kembali (1)
   m_TagString: Untagged
@@ -273,6 +274,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 276065348}
   m_CullTransparentMesh: 1
+--- !u!95 &276065352
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 276065348}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f2e70c81668533e468627dd163875c72, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &507127590
 GameObject:
   m_ObjectHideFlags: 0
@@ -307,8 +327,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.97955, y: 0.0545}
-  m_SizeDelta: {x: 798.04, y: 390.4698}
+  m_AnchoredPosition: {x: 0.97955, y: -2.3056}
+  m_SizeDelta: {x: 798.04, y: 404.61}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &507127592
 MonoBehaviour:
@@ -653,6 +673,7 @@ GameObject:
   - component: {fileID: 938934251}
   - component: {fileID: 938934253}
   - component: {fileID: 938934252}
+  - component: {fileID: 938934254}
   m_Layer: 5
   m_Name: kembali (4)
   m_TagString: Untagged
@@ -717,6 +738,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 938934250}
   m_CullTransparentMesh: 1
+--- !u!95 &938934254
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 938934250}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 83c31bc4eb19180469caef55f0ee2fbb, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1160168075
 GameObject:
   m_ObjectHideFlags: 0
