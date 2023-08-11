@@ -6,6 +6,8 @@ using TMPro;
 
 public class Quiz : MonoBehaviour
 {
+    private ulong seed = 1; 
+
     [Header("Questions")]
     [SerializeField] TextMeshProUGUI questionText;
     [SerializeField] List<QuestionsSO> questions = new List<QuestionsSO>();
@@ -78,15 +80,34 @@ public class Quiz : MonoBehaviour
         }
     }
 
+    private class LCGRandom
+    {
+        private long state;
+
+        public LCGRandom(long seed)
+        {
+            state = seed;
+        }
+
+        public int Range(int min, int max)
+        {
+            state = (LCGParameters.a * state + LCGParameters.c) % LCGParameters.m;
+            return (int)(min + (state % (max - min + 1)));
+        }
+    }
+
     void displayQuestion(){
         TextMeshProUGUI buttonText;
         questionText.text = currentQuestion.getQuestion();
-
+        // lcg the answers using the ShuffleArray function
         for(int i = 0; i < answerButtons.Length; i++){
             buttonText = answerButtons[i].GetComponentInChildren<TextMeshProUGUI>();
             buttonText.text = currentQuestion.getAnswer(i);
         }
     }
+    
+
+    
 
     void displayCorrectAnswer(int index){
           Image buttonImage;
