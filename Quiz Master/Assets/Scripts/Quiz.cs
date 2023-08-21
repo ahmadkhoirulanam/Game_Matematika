@@ -131,7 +131,7 @@ public class Quiz : MonoBehaviour
         setButtonState(false);
         hasAnsweredEarly = true;
         timer.cancelTimer();
-        displayScoreText.text = "Nilai: " + score.calculateTotalScore();
+        displayScoreText.text = "Nilai: \n" + score.calculateTotalScore();
 
     }
 
